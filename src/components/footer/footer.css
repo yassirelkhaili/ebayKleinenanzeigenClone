@@ -1,0 +1,98 @@
+.first-section h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+span {
+    text-align: center !important;
+}
+
+.statement h1 {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    padding: 20px;
+    padding-bottom: 0px;  
+    background-color: #7dac17;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second-section {
+    background-color: #86B817;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.second-section ul li{
+    list-style: none;
+    text-align: start;
+    padding-top: 2px;
+}
+
+.second-section ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.second-section {
+    text-align: center;
+}
+
+.first-section {
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.copyright h6{
+    margin-bottom: 0px !important;
+    background-color: #86B817;
+}
+
+.copyright {
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.list-title-first::after {
+content: "";
+display: block;
+background-color: white;
+height: 2px;
+width: 160px;
+}
+
+.list-title-second::after {
+    content: "";
+    display: block;
+    background-color: white;
+    height: 2px;
+    width: 98px;
+}
+
+.list-title-third::after {
+    content: "";
+    display: block;
+    background-color: white;
+    height: 2px;
+    width: 85px;
+}
+
+.list-title-fourth::after {
+    content: "";
+    display: block;
+    background-color: white;
+    height: 2px;
+    width: 64px;
+}
+
+.statement-content {
+    font-size: 23px !important;
+}
+
+

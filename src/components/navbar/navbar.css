@@ -1,0 +1,74 @@
+.navbar {
+    background-color: white; 
+    height: 120px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0px !important;
+}
+
+.logo {
+    width: 250px; 
+}
+
+.slogan {    
+    font-weight: 700;
+}
+
+.container-fluid{
+    padding-left: 10px !important;
+}
+
+.search-bar {
+    height: 40px;
+    display: flex;
+    width: 100%;
+}
+
+.search-section {
+    border: 2px solid lightgrey;
+    border-radius: 3px;
+    display: flex;
+    padding-right: 0px !important;
+}
+
+.search-field{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border: none; 
+}
+
+.search-button {
+    background-color: #86B817;
+    border: none;
+    width: 80px;
+}
+
+.sign-up {
+    background-color: #86B817 !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+.register {
+    border: 1px solid #86B817 !important;
+    color: #588100 !important;
+    font-weight: 600 !important;
+    height: 44px !important;
+    transition: 0.1s;
+}
+
+.register:hover {
+    background-color: rgba(241, 241, 241) !important;
+}
+
+.signup-section {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.einloggen {
+    padding-left: 5px;
+}
