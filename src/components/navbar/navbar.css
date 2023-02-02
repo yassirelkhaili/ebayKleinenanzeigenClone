@@ -43,12 +43,21 @@
     background-color: #86B817;
     border: none;
     width: 80px;
+    transition: .3s;
+}
+
+.search-button:hover {
+    background-color: #79b100 !important;
 }
 
 .sign-up {
     background-color: #86B817 !important;
     color: white !important;
     font-weight: 600 !important;
+}
+
+.sign-up:hover {
+    background-color: #699900 !important;
 }
 
 .register {

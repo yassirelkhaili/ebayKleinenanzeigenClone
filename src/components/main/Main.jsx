@@ -57,11 +57,11 @@ const Main = () => {
   </div>
   <div className="accordion-item">
     <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
       Immobilien
       </button>
     </h2>
-    <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+    <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
       <div className="accordion-body">
       <ul className='accordion-links'>
           <li><a href='#Gewerbeimmobilien'>Gewerbeimmobilien</a></li>
@@ -75,11 +75,11 @@ const Main = () => {
   </div>
   <div className="accordion-item">
     <h2 className="accordion-header" id="panelsStayOpen-headingThree">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
       Dienstleistungen
       </button>
     </h2>
-    <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+    <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
       <div className="accordion-body">
       <ul className='accordion-links'>
           <li><a href='#Babysitter & Kinderbetreuung'>Babysitter & Kinderbetreuung</a></li>
@@ -93,11 +93,11 @@ const Main = () => {
   </div>
   <div className="accordion-item">
     <h2 className="accordion-header" id="panelsStayOpen-headingThree">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
       Jobangebote
       </button>
     </h2>
-    <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+    <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
       <div className="accordion-body">
       <ul className='accordion-links'>
           <li><a href='#Gastronomie & Tourismus'>Gastronomie & Tourismus</a></li>
