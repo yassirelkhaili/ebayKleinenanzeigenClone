@@ -81,3 +81,8 @@
 .einloggen {
     padding-left: 5px;
 }
+
+.accordion-button {
+    background-color: rgb(134, 184, 23) !important;
+    color: white !important;
+}

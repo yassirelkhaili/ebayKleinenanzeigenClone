@@ -221,9 +221,25 @@ background-color: #7baa14;
   color: #588100 !important;
 }
 
- 
 
+#header:not(.collapsed)::after {
+  display: none;
+}
 
+#header::after {
+  display: none;
+}
 
+#header {
+  color: black !important;
+  background-color: white !important;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
 
-
+.accordion-button {
+  border-radius: 3px !important;
+}
